@@ -1,0 +1,166 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #ff4c86;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+h3{
+  font-family: 'Sora', sans-serif;
+}
+
+
+.container{
+ padding: 3% 15% ;
+ padding-bottom: 100px;
+
+}
+body{
+}
+#tagline{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  color:white;
+}
+
+/* navigation bar */
+.navbar{
+  padding-left:0px;
+}
+
+.row{
+  margin-top: 60px;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+ font-size: 4rem !important;
+}
+
+.nav-link{
+  font-size: 1.3rem !important;
+}
+
+#phone{
+  height: 35rem;
+  padding-left: 10%;
+  position:absolute;
+
+
+}
+.download-buttons{
+  margin-top: 10%;
+}
+#apple-button{
+  margin-right: 3%;
+}
+.rotated{
+  transform:rotate(23deg);
+}
+
+/* feature */
+.col-lg-4{
+  text-align:center;
+  padding: 5% 15%;
+}
+#features{
+  padding:15px 20px 25px 20px;
+  background-color: white;
+  position: relative;
+}
+.feature-icons{
+  font-size: 4rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-head{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.feature-desc{
+  color:#8f8f8f;
+  padding: 0 5%;
+}
+.col-lg-6{
+
+}
+
+
+/* styling the testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color:  #ef8172;
+  color: white;
+}
+.test-p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+}
+.test-img{
+  padding-top: 5%;
+  border-radius: 100%;
+  width:20%;
+  padding: 3%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+}
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price-intro{
+   font-family: 'Montserrat', sans-serif;
+}
+.pricing-col{
+  padding:3% 2%;
+}
+
+.card-header{
+  font-family: 'Sora', sans-serif;
+}
+
+#cta{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+@media (max-width:1000px) {
+  #title{
+    text-align: center;
+  }
+  #phone{
+    padding-top: 2rem;
+    padding:0;
+    padding-top: 2rem;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#footer{
+  padding: 10px 20px;
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
